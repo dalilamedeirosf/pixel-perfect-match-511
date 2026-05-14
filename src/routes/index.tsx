@@ -154,7 +154,7 @@ function Index() {
             const n = String(i + 1).padStart(2, "0");
             return (
               <section key={i} style={{ marginBottom: 24, breakInside: "avoid" }}>
-                <div className="flex items-center gap-3" style={{ marginBottom: 12 }}>
+                <div className="flex items-center gap-3" style={{ marginBottom: 22 }}>
                   <div
                     style={{
                       minWidth: 34,
