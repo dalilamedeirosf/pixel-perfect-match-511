@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import logo from "@/assets/cc-logo.png";
+import cover from "@/assets/cc-cover.jpg";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -11,7 +12,7 @@ export const Route = createFileRoute("/")({
   }),
 });
 
-const COVER = "https://s3.atendaia.com/pdf/SESSAO-CAPA.jpg";
+const COVER = cover;
 const GOLD = "#C9A84C";
 const BG = "#f5f3ee";
 const nomeAtleta = "Felipe Amaral";
