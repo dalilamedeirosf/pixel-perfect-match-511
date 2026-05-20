@@ -6,7 +6,7 @@
 
 
 /* 
-  Display Font: Bebas Neue
+  Display Font: Nexa
   Body Font: DM Sans
 */
 :root {
@@ -19,7 +19,7 @@
   --dark3: #222222;
   --gray: #888888;
   --white: #FFFFFF;
-  --font-display: 'Bebas Neue', sans-serif;
+  --font-display: 'Nexa', sans-serif;
   --font-body: 'DM Sans', sans-serif;
 }
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
