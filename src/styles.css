@@ -5,6 +5,10 @@
 @custom-variant dark (&:is(.dark *));
 
 
+/* 
+  Display Font: Bebas Neue
+  Body Font: DM Sans
+*/
 :root {
   --gold: #C9A84C;
   --gold-light: #E8C96A;
