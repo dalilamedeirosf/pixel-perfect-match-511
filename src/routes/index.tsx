@@ -16,7 +16,7 @@ function Index() {
     <>
             {/* NAV */}
       <nav>
-        <div className="nav-logo"><img src={LOGO_BASE64} style={{ height: "40px", width: "auto" }} alt="Virtus App" /></div>
+        <div className="nav-logo"><img src={LOGO_BASE64} style={{ height: "48px", width: "auto" }} alt="Virtus App" /></div>
         <ul>
           <li><a href="#como">Como funciona</a></li>
           <li><a href="#beneficios">Benefícios</a></li>
