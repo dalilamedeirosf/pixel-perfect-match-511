@@ -5,7 +5,7 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Virtus — Seu Clube de Vantagens" },
+      { title: "Virtus App — Seu Clube de Vantagens" },
       { name: "viewport", content: "width=device-width, initial-scale=1.0" },
     ],
   }),
@@ -16,14 +16,14 @@ function Index() {
     <>
             {/* NAV */}
       <nav>
-        <div className="nav-logo"><img src={LOGO_BASE64} style={{ height: "40px", width: "auto" }} alt="Virtus Club" /></div>
+        <div className="nav-logo"><img src={LOGO_BASE64} style={{ height: "40px", width: "auto" }} alt="Virtus App" /></div>
         <ul>
           <li><a href="#como">Como funciona</a></li>
           <li><a href="#beneficios">Benefícios</a></li>
           <li><a href="#planos">Planos</a></li>
           <li><a href="#admin">Painel</a></li>
         </ul>
-        <a href="#cta" className="nav-cta">Quero o Virtus</a>
+        <a href="#cta" className="nav-cta">Quero o Virtus App</a>
       </nav>
       
       {/* HERO */}
@@ -34,7 +34,7 @@ function Index() {
           <div>
             <p className="hero-kicker anim-fadeup">Clube de Vantagens Premium</p>
             <h1 className="hero-h1 anim-fadeup-2">Transforme clientes em <em>fãs</em> da sua loja</h1>
-            <p className="hero-sub anim-fadeup-3">O Virtus é o clube de vantagens que faz seu cliente voltar sempre — com pontos, fidelidade, planos VIP e sorteios exclusivos. Tudo no seu nome.</p>
+            <p className="hero-sub anim-fadeup-3">O Virtus App é o clube de vantagens que faz seu cliente voltar sempre — com pontos, fidelidade, planos VIP e sorteios exclusivos. Tudo no seu nome.</p>
             <div className="hero-btns anim-fadeup-3">
               <a href="#cta" className="btn-primary">Quero apresentação completa</a>
               <a href="#como" className="btn-outline">Ver como funciona</a>
@@ -62,7 +62,7 @@ function Index() {
               <div className="phone-screen">
                 <div className="phone-vip-badge">
                   <div className="phone-vip-plan">SEU PLANO</div>
-                  <div className="phone-vip-name">Virtus VIP+</div>
+                  <div className="phone-vip-name">Virtus App VIP+</div>
                   <div className="phone-vip-active">● ATIVO</div>
                 </div>
                 <div className="phone-benefit"><div className="phone-benefit-icon">🏷️</div>Descontos exclusivos</div>
@@ -173,7 +173,7 @@ function Index() {
       <section id="como">
         <div className="container">
           <p className="section-label">A solução</p>
-          <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(32px,4vw,48px)", fontWeight: "700", maxWidth: "500px", lineHeight: "1.1" }}>Como o Virtus <span className="gold">transforma</span> sua loja</h2>
+          <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(32px,4vw,48px)", fontWeight: "700", maxWidth: "500px", lineHeight: "1.1" }}>Como o Virtus App <span className="gold">transforma</span> sua loja</h2>
           <div className="divider"></div>
           <div className="how-grid">
             <div className="steps">
@@ -434,7 +434,7 @@ function Index() {
         <div className="container">
           <div className="cta-inner">
             <div className="tag">Próximo passo</div>
-            <h2 className="cta-h">Pronto para transformar sua loja com o <span className="gold">Virtus</span>?</h2>
+            <h2 className="cta-h">Pronto para transformar sua loja com o <span className="gold">Virtus App</span>?</h2>
             <p className="cta-sub">Agende uma conversa e veja como o Virtus funciona na prática — com demonstração ao vivo do app e do painel administrativo.</p>
             <div className="cta-btns">
               <a href="#" className="btn-primary" style={{ fontSize: "15px", padding: "16px 32px" }}>Agendar demonstração</a>
