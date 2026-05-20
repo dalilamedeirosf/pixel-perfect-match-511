@@ -81,7 +81,7 @@ nav ul a:hover { color: var(--gold); }
 }
 .hero-inner { position: relative; z-index: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; max-width: 1100px; margin: 0 auto; width: 100%; }
 .hero-kicker { font-size: 11px; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; color: var(--gold); margin-bottom: 20px; }
-.hero-h1 { font-family: var(--font-display); font-size: clamp(48px, 6vw, 80px); font-weight: 700; line-height: 1.0; margin-bottom: 24px; }
+.hero-h1 { font-family: var(--font-display); font-size: clamp(48px, 6vw, 80px); font-weight: 700; line-height: 1.05; margin-bottom: 24px; letter-spacing: 0.05em; }
 .hero-h1 em { color: var(--gold); font-style: normal; }
 .hero-sub { font-size: 17px; font-weight: 300; color: rgba(255,255,255,.6); line-height: 1.7; max-width: 420px; margin-bottom: 40px; }
 .hero-btns { display: flex; gap: 14px; flex-wrap: wrap; }
@@ -96,7 +96,7 @@ nav ul a:hover { color: var(--gold); }
 }
 .btn-outline:hover { border-color: var(--gold); color: var(--gold); }
 .hero-stats { display: flex; gap: 40px; margin-top: 52px; }
-.hero-stat-n { font-family: var(--font-display); font-size: 36px; font-weight: 700; color: var(--gold); }
+.hero-stat-n { font-family: var(--font-display); font-size: 36px; font-weight: 700; color: var(--gold); letter-spacing: 0.03em; }
 .hero-stat-l { font-size: 12px; color: rgba(255,255,255,.4); margin-top: 2px; }
 
 /* ── PHONE MOCKUP ── */
@@ -117,7 +117,7 @@ nav ul a:hover { color: var(--gold); }
 .phone-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
 .phone-logo { display: flex; align-items: center; gap: 6px; }
 .phone-logo svg { width: 18px; height: 18px; }
-.phone-logo-text { font-family: var(--font-display); font-size: 12px; font-weight: 700; color: var(--gold); }
+.phone-logo-text { font-family: var(--font-display); font-size: 12px; font-weight: 700; color: var(--gold); letter-spacing: 0.03em; }
 .phone-bell { width: 18px; height: 18px; opacity: .5; }
 .phone-greeting { font-size: 10px; color: rgba(255,255,255,.5); margin-bottom: 2px; }
 .phone-name { font-size: 13px; font-weight: 600; margin-bottom: 12px; }
@@ -127,7 +127,7 @@ nav ul a:hover { color: var(--gold); }
   padding: 12px; margin-bottom: 10px;
 }
 .phone-pts-label { font-size: 9px; color: rgba(255,255,255,.4); margin-bottom: 2px; }
-.phone-pts-value { font-family: var(--font-display); font-size: 26px; font-weight: 700; color: var(--gold); }
+.phone-pts-value { font-family: var(--font-display); font-size: 26px; font-weight: 700; color: var(--gold); letter-spacing: 0.02em; }
 .phone-pts-sub { font-size: 8px; color: rgba(255,255,255,.3); }
 .phone-pts-btn {
   background: var(--gold); color: var(--black); font-size: 8px; font-weight: 700;
@@ -151,7 +151,7 @@ nav ul a:hover { color: var(--gold); }
 /* VIP screen */
 .phone-vip-badge { background: linear-gradient(135deg, var(--gold), #A07830); border-radius: 10px; padding: 12px; margin-bottom: 10px; }
 .phone-vip-plan { font-size: 8px; color: rgba(0,0,0,.6); margin-bottom: 2px; }
-.phone-vip-name { font-family: var(--font-display); font-size: 18px; font-weight: 700; color: var(--black); }
+.phone-vip-name { font-family: var(--font-display); font-size: 18px; font-weight: 700; color: var(--black); letter-spacing: 0.05em; }
 .phone-vip-active { display: inline-block; background: rgba(0,0,0,.15); color: var(--black); font-size: 7px; font-weight: 700; padding: 2px 7px; border-radius: 4px; margin-top: 4px; }
 .phone-benefit { display: flex; align-items: center; gap: 8px; padding: 7px 0; border-bottom: 1px solid rgba(255,255,255,.05); font-size: 9px; }
 .phone-benefit-icon { width: 24px; height: 24px; background: rgba(229,186,66,.1); border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 11px; flex-shrink: 0; }
@@ -188,7 +188,7 @@ nav ul a:hover { color: var(--gold); }
   opacity: 0; transition: opacity .3s;
 }
 .problem-card:hover::before { opacity: 1; }
-.problem-n { font-family: var(--font-display); font-size: 60px; font-weight: 700; color: rgba(229,186,66,.08); line-height: 1; margin-bottom: 16px; }
+.problem-n { font-family: var(--font-display); font-size: 60px; font-weight: 700; color: rgba(229,186,66,.08); line-height: 1; margin-bottom: 16px; letter-spacing: 0.04em; }
 .problem-title { font-size: 16px; font-weight: 600; margin-bottom: 10px; }
 .problem-text { font-size: 14px; color: rgba(255,255,255,.45); line-height: 1.7; }
 
@@ -201,7 +201,7 @@ nav ul a:hover { color: var(--gold); }
 .step-num {
   width: 40px; height: 40px; border-radius: 10px; background: rgba(229,186,66,.1);
   border: 1px solid rgba(229,186,66,.2); display: flex; align-items: center; justify-content: center;
-  font-family: var(--font-display); font-size: 16px; font-weight: 700; color: var(--gold); flex-shrink: 0;
+  font-family: var(--font-display); font-size: 16px; font-weight: 700; color: var(--gold); flex-shrink: 0; letter-spacing: 0.03em;
 }
 .step-title { font-size: 15px; font-weight: 600; margin-bottom: 6px; }
 .step-text { font-size: 13px; color: rgba(255,255,255,.45); line-height: 1.6; }
@@ -223,7 +223,7 @@ nav ul a:hover { color: var(--gold); }
 .roi-val.gold { color: var(--gold); }
 .roi-total { background: rgba(229,186,66,.08); border: 1px solid rgba(229,186,66,.2); border-radius: 10px; padding: 16px; display: flex; justify-content: space-between; align-items: center; }
 .roi-total-label { font-size: 13px; color: rgba(255,255,255,.6); }
-.roi-total-val { font-family: var(--font-display); font-size: 28px; font-weight: 700; color: var(--gold); }
+.roi-total-val { font-family: var(--font-display); font-size: 28px; font-weight: 700; color: var(--gold); letter-spacing: 0.03em; }
 
 /* ── BENEFITS ── */
 #beneficios { padding: 120px 0; background: var(--dark); }
@@ -256,7 +256,7 @@ nav ul a:hover { color: var(--gold); }
   padding: 4px 14px; border-radius: 99px; letter-spacing: .06em; text-transform: uppercase; white-space: nowrap;
 }
 .plan-name { font-size: 12px; font-weight: 600; color: rgba(255,255,255,.4); letter-spacing: .1em; text-transform: uppercase; margin-bottom: 8px; }
-.plan-price { font-family: var(--font-display); font-size: 44px; font-weight: 700; color: var(--white); line-height: 1; }
+.plan-price { font-family: var(--font-display); font-size: 44px; font-weight: 700; color: var(--white); line-height: 1; letter-spacing: 0.03em; }
 .plan-price span { font-size: 18px; font-weight: 400; color: rgba(255,255,255,.4); }
 .plan-period { font-size: 12px; color: rgba(255,255,255,.35); margin-top: 4px; margin-bottom: 6px; }
 .plan-economy { font-size: 12px; color: #4CAF7D; font-weight: 500; margin-bottom: 24px; }
@@ -320,7 +320,7 @@ nav ul a:hover { color: var(--gold); }
 #cta { padding: 120px 0; position: relative; overflow: hidden; }
 .cta-bg { position: absolute; inset: 0; background: radial-gradient(ellipse 70% 80% at 50% 50%, rgba(229,186,66,.07), transparent); }
 .cta-inner { position: relative; z-index: 1; text-align: center; max-width: 600px; margin: 0 auto; }
-.cta-h { font-family: var(--font-display); font-size: clamp(36px, 5vw, 60px); font-weight: 700; line-height: 1.1; margin-bottom: 20px; }
+.cta-h { font-family: var(--font-display); font-size: clamp(36px, 5vw, 60px); font-weight: 700; line-height: 1.1; margin-bottom: 20px; letter-spacing: 0.05em; }
 .cta-sub { font-size: 16px; color: rgba(255,255,255,.5); line-height: 1.7; margin-bottom: 40px; }
 .cta-btns { display: flex; gap: 14px; justify-content: center; }
 .cta-badges { display: flex; gap: 30px; justify-content: center; margin-top: 40px; }
@@ -329,7 +329,7 @@ nav ul a:hover { color: var(--gold); }
 
 /* ── FOOTER ── */
 footer { padding: 40px; border-top: 1px solid rgba(255,255,255,.06); display: flex; align-items: center; justify-content: space-between; }
-.footer-logo { font-family: var(--font-display); font-size: 18px; font-weight: 700; color: var(--gold); }
+.footer-logo { font-family: var(--font-display); font-size: 18px; font-weight: 700; color: var(--gold); letter-spacing: 0.04em; }
 .footer-copy { font-size: 12px; color: rgba(255,255,255,.25); }
 
 /* ── ANIMATIONS ── */

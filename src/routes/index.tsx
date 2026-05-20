@@ -146,7 +146,7 @@ function Index() {
         <div style={{ padding: "120px 0", background: "var(--dark)" }}>
           <div className="container">
             <p className="section-label">O problema real</p>
-            <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(32px,4vw,48px)", fontWeight: "700", maxWidth: "500px", lineHeight: "1.1" }}>Sua loja perde clientes <span className="gold">todos os dias</span> sem perceber</h2>
+            <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(32px,4vw,48px)", fontWeight: "700", maxWidth: "500px", lineHeight: "1.1", letterSpacing: "0.05em" }}>Sua loja perde clientes <span className="gold">todos os dias</span> sem perceber</h2>
             <div className="divider"></div>
             <div className="problems-grid">
               <div className="problem-card">
@@ -173,7 +173,7 @@ function Index() {
       <section id="como">
         <div className="container">
           <p className="section-label">A solução</p>
-          <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(32px,4vw,48px)", fontWeight: "700", maxWidth: "500px", lineHeight: "1.1" }}>Como o Virtus App <span className="gold">transforma</span> sua loja</h2>
+          <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(32px,4vw,48px)", fontWeight: "700", maxWidth: "500px", lineHeight: "1.1", letterSpacing: "0.05em" }}>Como o Virtus App <span className="gold">transforma</span> sua loja</h2>
           <div className="divider"></div>
           <div className="how-grid">
             <div className="steps">
@@ -225,7 +225,7 @@ function Index() {
               </div>
               <div className="how-card" style={{ background: "rgba(229,186,66,.06)", borderColor: "rgba(229,186,66,.2)" }}>
                 <div className="how-card-title" style={{ color: "var(--gold)" }}>💡 Com 100 VIPs ativos</div>
-                <div style={{ fontFamily: "var(--font-display)", fontSize: "42px", fontWeight: "700", color: "var(--gold)" }}>R$181.900</div>
+                <div style={{ fontFamily: "var(--font-display)", fontSize: "42px", fontWeight: "700", color: "var(--gold)", letterSpacing: "0.03em" }}>R$181.900</div>
                 <div style={{ fontSize: "13px", color: "rgba(255,255,255,.4)", marginTop: "4px" }}>de receita incremental por ano — apenas com clientes que já passaram pela sua loja.</div>
               </div>
             </div>
@@ -237,7 +237,7 @@ function Index() {
       <section id="beneficios">
         <div className="container">
           <p className="section-label">Para o seu cliente</p>
-          <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(32px,4vw,48px)", fontWeight: "700", maxWidth: "500px", lineHeight: "1.1" }}>Benefícios que criam <span className="gold">vício de voltar</span></h2>
+          <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(32px,4vw,48px)", fontWeight: "700", maxWidth: "500px", lineHeight: "1.1", letterSpacing: "0.05em" }}>Benefícios que criam <span className="gold">vício de voltar</span></h2>
           <div className="divider"></div>
           <div className="benefits-grid">
             <div className="benefit-card">
@@ -284,7 +284,7 @@ function Index() {
       <section id="planos">
         <div className="container">
           <p className="section-label">Planos VIP</p>
-          <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(32px,4vw,48px)", fontWeight: "700", maxWidth: "500px", lineHeight: "1.1" }}>Escolha o plano <span className="gold">certo pra você</span></h2>
+          <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(32px,4vw,48px)", fontWeight: "700", maxWidth: "500px", lineHeight: "1.1", letterSpacing: "0.05em" }}>Escolha o plano <span className="gold">certo pra você</span></h2>
           <div className="divider"></div>
           <div className="plans-grid">
             <div className="plan-card">
@@ -335,7 +335,7 @@ function Index() {
       <section id="premios">
         <div className="container">
           <p className="section-label">Catálogo de prêmios</p>
-          <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(32px,4vw,48px)", fontWeight: "700", maxWidth: "500px", lineHeight: "1.1" }}>Pontos que viram <span className="gold">produtos reais</span></h2>
+          <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(32px,4vw,48px)", fontWeight: "700", maxWidth: "500px", lineHeight: "1.1", letterSpacing: "0.05em" }}>Pontos que viram <span className="gold">produtos reais</span></h2>
           <div className="divider"></div>
           <div className="rewards-grid">
             <div className="reward-card"><div className="reward-emoji">📱</div><div className="reward-name">Película Premium</div><div className="reward-pts">100 pontos</div></div>
@@ -354,7 +354,7 @@ function Index() {
           <div className="admin-wrap">
             <div>
               <p className="section-label">Para o dono da loja</p>
-              <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(28px,3.5vw,42px)", fontWeight: "700", lineHeight: "1.15", marginBottom: "16px" }}>Painel completo para <span className="gold">você controlar tudo</span></h2>
+              <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(28px,3.5vw,42px)", fontWeight: "700", lineHeight: "1.15", marginBottom: "16px", letterSpacing: "0.05em" }}>Painel completo para <span className="gold">você controlar tudo</span></h2>
               <div className="divider"></div>
               <div className="admin-features">
                 <div className="admin-feature">
