@@ -15,7 +15,7 @@
   --dark3: #222222;
   --gray: #888888;
   --white: #FFFFFF;
-  --font-display: 'Cormorant Garamond', serif;
+  --font-display: 'Bebas Neue', sans-serif;
   --font-body: 'DM Sans', sans-serif;
 }
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
