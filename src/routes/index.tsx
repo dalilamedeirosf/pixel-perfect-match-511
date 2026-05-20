@@ -223,7 +223,7 @@ function Index() {
                   <span className="roi-total-val">R$1.819</span>
                 </div>
               </div>
-              <div className="how-card" style={{ background: "rgba(201,168,76,.06)", borderColor: "rgba(201,168,76,.2)" }}>
+              <div className="how-card" style={{ background: "rgba(229,186,66,.06)", borderColor: "rgba(229,186,66,.2)" }}>
                 <div className="how-card-title" style={{ color: "var(--gold)" }}>💡 Com 100 VIPs ativos</div>
                 <div style={{ fontFamily: "var(--font-display)", fontSize: "42px", fontWeight: "700", color: "var(--gold)" }}>R$181.900</div>
                 <div style={{ fontSize: "13px", color: "rgba(255,255,255,.4)", marginTop: "4px" }}>de receita incremental por ano — apenas com clientes que já passaram pela sua loja.</div>

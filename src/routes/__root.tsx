@@ -91,7 +91,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       {
         rel: "stylesheet",
-        href: "https://fonts.cdnfonts.com/css/nexa",
+        href: "https://fonts.cdnfonts.com/css/borscha",
       },
     ],
   }),
