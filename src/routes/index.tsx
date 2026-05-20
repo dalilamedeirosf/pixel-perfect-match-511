@@ -298,7 +298,7 @@ function Index() {
               <div className="plan-feature">Limpeza mensal</div>
               <div className="plan-feature">Atendimento prioritário</div>
               <div className="plan-feature">Sorteios mensais</div>
-              <button className="plan-btn outline">Assinar mensal</button>
+              <a href="https://wa.me/5521986422434?text=Olá!%20Fiquei%20interessado%20no%20plano%20VIP%20Mensal%20do%20VirtusApp." target="_blank" rel="noopener noreferrer" className="plan-btn outline">Assinar mensal</a>
             </div>
             <div className="plan-card featured">
               <div className="plan-popular">Mais popular</div>
@@ -312,7 +312,7 @@ function Index() {
               <div className="plan-feature">Limpeza mensal</div>
               <div className="plan-feature">Atendimento prioritário</div>
               <div className="plan-feature">Sorteios mensais</div>
-              <button className="plan-btn gold">Assinar semestral</button>
+              <a href="https://wa.me/5521986422434?text=Olá!%20Fiquei%20interessado%20no%20plano%20VIP%20Semestral%20do%20VirtusApp." target="_blank" rel="noopener noreferrer" className="plan-btn gold">Assinar semestral</a>
             </div>
             <div className="plan-card">
               <div className="plan-name">VIP Anual</div>
@@ -325,7 +325,7 @@ function Index() {
               <div className="plan-feature">Limpeza mensal</div>
               <div className="plan-feature">Atendimento prioritário</div>
               <div className="plan-feature">Sorteios mensais</div>
-              <button className="plan-btn outline">Assinar anual</button>
+              <a href="https://wa.me/5521986422434?text=Olá!%20Fiquei%20interessado%20no%20plano%20VIP%20Anual%20do%20VirtusApp." target="_blank" rel="noopener noreferrer" className="plan-btn outline">Assinar anual</a>
             </div>
           </div>
         </div>
@@ -437,8 +437,8 @@ function Index() {
             <h2 className="cta-h">Pronto para transformar sua loja com o <span className="gold">Virtus App</span>?</h2>
             <p className="cta-sub">Agende uma conversa e veja como o Virtus funciona na prática — com demonstração ao vivo do app e do painel administrativo.</p>
             <div className="cta-btns">
-              <a href="#" className="btn-primary" style={{ fontSize: "15px", padding: "16px 32px" }}>Agendar demonstração</a>
-              <a href="#" className="btn-outline" style={{ fontSize: "15px", padding: "16px 32px" }}>Falar pelo WhatsApp</a>
+              <a href="https://wa.me/5521986422434?text=Fiquei%20interessado%20na%20sua%20proposta%20pra%20cria%C3%A7%C3%A3o%20do%20nosso%20Aplicativo%20VirtusApp" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ fontSize: "15px", padding: "16px 32px" }}>Agendar demonstração</a>
+              <a href="https://wa.me/5521986422434?text=Fiquei%20interessado%20na%20sua%20proposta%20pra%20cria%C3%A7%C3%A3o%20do%20nosso%20Aplicativo%20VirtusApp" target="_blank" rel="noopener noreferrer" className="btn-outline" style={{ fontSize: "15px", padding: "16px 32px" }}>Falar pelo WhatsApp</a>
             </div>
             <div className="cta-badges">
               <div className="cta-badge">App no seu nome</div>
