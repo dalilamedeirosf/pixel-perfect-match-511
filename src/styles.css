@@ -415,6 +415,9 @@ footer { padding: 40px; border-top: 1px solid rgba(255,255,255,.06); display: fl
 }
 @media(max-width:600px){
   .container { padding: 0 16px; }
+  #problems, #como, #beneficios, #planos, #premios, #admin { padding: 60px 0; }
+  .problems-grid, .benefits-grid, .plans-grid, .rewards-grid, .how-grid, .admin-wrap { margin-top: 32px; }
+  .how-grid { gap: 40px; }
   .problems-grid,.benefits-grid,.plans-grid,.rewards-grid { grid-template-columns: 1fr; }
   nav { padding: 16px 16px; }
   #hero { padding: 90px 16px 50px; }
