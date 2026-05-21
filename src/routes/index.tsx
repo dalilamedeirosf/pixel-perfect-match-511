@@ -120,34 +120,58 @@ function Index() {
           <div className="how-grid">
             <div className="steps">
               <div className="step">
-                <div className="step-num">1</div>
+                <div className="step-num">📱</div>
                 <div>
-                  <div className="step-title">Cliente baixa o app e se cadastra</div>
-                  <div className="step-text">Gratuito, rápido e no nome da sua loja. Ele já começa com pontos de boas-vindas.</div>
+                  <div className="step-title">Baixa o app</div>
+                  <div className="step-text">Cria conta e se cadastra gratuitamente.</div>
                 </div>
                 <div className="step-connector"></div>
               </div>
               <div className="step">
-                <div className="step-num">2</div>
+                <div className="step-num">🛍️</div>
                 <div>
-                  <div className="step-title">Acumula pontos em tudo</div>
-                  <div className="step-text">Compras, manutenções, indicações e missões que geram prêmios de valor real.</div>
+                  <div className="step-title">Explora o catálogo</div>
+                  <div className="step-text">Consulta produtos e ofertas da sua loja.</div>
                 </div>
                 <div className="step-connector"></div>
               </div>
               <div className="step">
-                <div className="step-num">3</div>
+                <div className="step-num">⭐</div>
                 <div>
-                  <div className="step-title">Resgata prêmios e descontos</div>
-                  <div className="step-text">Película, capinha, limpeza, fone Bluetooth, desconto na próxima compra — prêmios tangíveis que ele quer.</div>
+                  <div className="step-title">Compra / Manutenção</div>
+                  <div className="step-text">Acumula pontos e fidelidade a cada serviço ou compra.</div>
                 </div>
                 <div className="step-connector"></div>
               </div>
               <div className="step">
-                <div className="step-num">4</div>
+                <div className="step-num">👑</div>
                 <div>
-                  <div className="step-title">Assina o VIP e vira fã</div>
-                  <div className="step-text">Pontos em dobro, cashback, limpeza mensal, sorteios exclusivos. Ele paga todo mês para ser seu cliente preferencial.</div>
+                  <div className="step-title">Se torna VIP+ (opcional)</div>
+                  <div className="step-text">Aproveita benefícios exclusivos e paga mensalidade.</div>
+                </div>
+                <div className="step-connector"></div>
+              </div>
+              <div className="step">
+                <div className="step-num">🎁</div>
+                <div>
+                  <div className="step-title">Participa dos sorteios</div>
+                  <div className="step-text">Mais chances, mais prêmios para manter o engajamento.</div>
+                </div>
+                <div className="step-connector"></div>
+              </div>
+              <div className="step">
+                <div className="step-num">🔔</div>
+                <div>
+                  <div className="step-title">Recebe notificações</div>
+                  <div className="step-text">Promoções exclusivas, saldo de pontos e novidades.</div>
+                </div>
+                <div className="step-connector"></div>
+              </div>
+              <div className="step">
+                <div className="step-num">🔄</div>
+                <div>
+                  <div className="step-title">Volta sempre</div>
+                  <div className="step-text">Mais vantagens e a melhor experiência de compra.</div>
                 </div>
               </div>
             </div>
@@ -217,6 +241,55 @@ function Index() {
               <div className="benefit-title">Notificações inteligentes</div>
               <div className="benefit-text">Push segmentado: lembrete de manutenção, pontos prestes a expirar, oferta exclusiva VIP, novidade no catálogo.</div>
               <div className="benefit-tag">Engajamento</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      {/* NOTIFICATIONS */}
+      <section id="notificacoes" style={{ padding: "120px 0" }}>
+        <div className="container">
+          <div className="notif-wrapper">
+            <div className="notif-content">
+              <p className="section-label">Engajamento automático</p>
+              <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(32px,4vw,48px)", fontWeight: "700", maxWidth: "500px", lineHeight: "1.1", letterSpacing: "0.05em" }}>Notificações <span className="gold">Inteligentes</span></h2>
+              <div className="divider"></div>
+              <p className="notif-text">Receba notificações de pontos, promoções e novidades direto no celular do seu cliente. Mantenha-os sempre conectados e engajados com a sua loja.</p>
+              <a href="#admin" className="plan-btn outline" style={{ maxWidth: "250px", marginTop: "30px", display: "inline-block" }}>Ver painel de envio</a>
+            </div>
+            <div className="notif-mockup">
+              <div className="notif-card">
+                <div className="notif-icon" style={{ background: "rgba(229,186,66,.15)", color: "var(--gold)" }}>⭐</div>
+                <div className="notif-info">
+                  <div className="notif-title">Pontos ganhos</div>
+                  <div className="notif-desc">Você ganhou 150 pontos!</div>
+                </div>
+                <div className="notif-time">10:30</div>
+              </div>
+              <div className="notif-card">
+                <div className="notif-icon" style={{ background: "rgba(233,30,99,.15)", color: "#E91E63" }}>📢</div>
+                <div className="notif-info">
+                  <div className="notif-title">Promoção exclusiva</div>
+                  <div className="notif-desc">Descontos de até 20% para VIPs!</div>
+                </div>
+                <div className="notif-time">12:00</div>
+              </div>
+              <div className="notif-card">
+                <div className="notif-icon" style={{ background: "rgba(33,150,243,.15)", color: "#2196F3" }}>🔧</div>
+                <div className="notif-info">
+                  <div className="notif-title">Lembrete</div>
+                  <div className="notif-desc">Falta 1 manutenção para sua tela grátis!</div>
+                </div>
+                <div className="notif-time">09:00</div>
+              </div>
+              <div className="notif-card">
+                <div className="notif-icon" style={{ background: "rgba(156,39,176,.15)", color: "#9C27B0" }}>🎁</div>
+                <div className="notif-info">
+                  <div className="notif-title">Novidades</div>
+                  <div className="notif-desc">Sorteio do mês já está valendo. Participe!</div>
+                </div>
+                <div className="notif-time">18:00</div>
+              </div>
             </div>
           </div>
         </div>
@@ -370,6 +443,61 @@ function Index() {
         </div>
       </section>
       
+      {/* ROADMAP / TECH */}
+      <section id="roadmap" style={{ padding: "120px 0", background: "var(--dark2)", borderTop: "1px solid rgba(255,255,255,.05)", borderBottom: "1px solid rgba(255,255,255,.05)" }}>
+        <div className="container">
+          <div className="roadmap-grid">
+            <div className="tech-section">
+              <p className="section-label">Stack de Desenvolvimento</p>
+              <h3 style={{ fontFamily: "var(--font-display)", fontSize: "36px", marginBottom: "30px", letterSpacing: "0.03em" }}>Tecnologias</h3>
+              <div className="tech-list">
+                <div className="tech-item">
+                  <div className="tech-icon">📱</div>
+                  <div className="tech-info">
+                    <div className="tech-name">Flutter</div>
+                    <div className="tech-desc">App nativo Android e iOS com performance premium.</div>
+                  </div>
+                </div>
+                <div className="tech-item">
+                  <div className="tech-icon">🔥</div>
+                  <div className="tech-info">
+                    <div className="tech-name">Firebase</div>
+                    <div className="tech-desc">Backend robusto, autenticação e banco de dados em tempo real.</div>
+                  </div>
+                </div>
+                <div className="tech-item">
+                  <div className="tech-icon">⚙️</div>
+                  <div className="tech-info">
+                    <div className="tech-name">Cloud Functions</div>
+                    <div className="tech-desc">Automação segura e regras de negócio escaláveis.</div>
+                  </div>
+                </div>
+                <div className="tech-item">
+                  <div className="tech-icon">💳</div>
+                  <div className="tech-info">
+                    <div className="tech-name">Stripe / Mercado Pago</div>
+                    <div className="tech-desc">Processamento de pagamentos para a assinatura VIP+.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div className="steps-section">
+              <p className="section-label">Roadmap do Projeto</p>
+              <h3 style={{ fontFamily: "var(--font-display)", fontSize: "36px", marginBottom: "30px", letterSpacing: "0.03em" }}>Próximos Passos</h3>
+              <ol className="roadmap-list">
+                <li><span className="road-num">1</span>Aprovação do projeto e investimento</li>
+                <li><span className="road-num">2</span>Protótipo interativo final e identidade visual</li>
+                <li><span className="road-num">3</span>Desenvolvimento do MVP (Produto Mínimo Viável)</li>
+                <li><span className="road-num">4</span>Fase de testes beta e homologação técnica</li>
+                <li><span className="road-num">5</span>Publicação oficial nas lojas (App Store e Play Store)</li>
+                <li><span className="road-num">6</span>Lançamento nas lojas físicas e plano de marketing</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section id="cta">
         <div className="cta-bg"></div>
