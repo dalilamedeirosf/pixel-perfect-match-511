@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { useEffect } from "react";
 import { LOGO_BASE64 } from "@/assets/logo-base64";
 import { IPHONE15_BASE64, XIAOMI14_BASE64 } from "@/assets/products-base64";
 import { PHONES_MOCKUP_BASE64 } from "@/assets/phones-mockup-base64";
@@ -14,6 +15,20 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
+  useEffect(() => {
+    const handleScroll = () => {
+      const nav = document.querySelector('nav');
+      if (nav) {
+        if (window.scrollY > 20) nav.classList.add('scrolled');
+        else nav.classList.remove('scrolled');
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+    // run once on mount in case already scrolled
+    handleScroll();
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <>
       {/* NAV */}
